@@ -1,46 +1,8 @@
-# School of Computing
-
-| Module Title and Code | USER EXPERIENCE DESIGN AND IMPLEMENTATION - FHEQ 5<br>PROGRAMMING APPLICATIONS AND PROGRAMMING LANGUAGES - M30235 - FHEQ 5 |
-| :--- | :--- |
-| **Module Coordinator** | Mani Ghahremani (mani.ghahremani@port.ac.uk) |
-| **Assessment Item number** | Item 1 (Referral / Deferral Re-assessment) |
-| **Assessment Title** | Moodle — Flutter Coursework Brief |
-| **Date Issued** | 2026-06-24 |
-
----
-
-## Schedule and Deliverables
-
-| Deliverable | Format | Value | Deadline / Date | Late/ECF deadline |
-| :--- | :--- | :--- | :--- | :--- |
-| **GitHub Repository** | Link to your public repository submitted to Moodle | 100% | 2026-07-29 13:00 [GMT] with 48 hour extension to 2026-7-31 13:00 [GMT] | N/A / |
-| **Demo** | A 10-minute online demo scheduled using [this link](https://outlook.office.com/bookwithme/user/e0acc34f2ca040b295fb20cfce7425a2@port.ac.uk/meetingtype/qZuY5y_IuUimqFEq4d1oDA2?anonymous&ismsaljsauthenabled&ep=mlink). All marks awarded in the demo. | 100% | Latest by 2026-08-03 | N/A |
-
----
-
-## Notes and Advice
-
-***The [Extenuating Circumstances procedure](https://myport.port.ac.uk/my-course/extenuating-circumstances) is there to support you if you have had any circumstances that have been significant enough to prevent you from attending, completing or submitting an assessment on time. If you complete an Extenuating Circumstances Form (ECF) for this assessment, use the correct module code, item number and deadline (not the late deadline) given above.***
-
-***[ASDAC](http://www2.port.ac.uk/additional-support-and-disability-advice-centre/) are available to any students who disclose a disability or require additional support for their academic studies, with a good set of resources on the [ASDAC moodle site](https://moodle.port.ac.uk/course/view.php?id=3012)***
-
-***The University takes any form of academic misconduct (such as plagiarism) seriously, so please make sure your work is your own. Please ensure you adhere to our [Student Conduct Policy](https://policies.docstore.port.ac.uk/policy-261.pdf) and watch the video on [Plagiarism.](https://www.youtube.com/watch?v=2a0QJnCmfEs)***
-
-***Any material included in your coursework should be fully cited and referenced in **APA 7** format. Detailed advice on referencing is available from the [library](https://library.port.ac.uk/w165.html), also see [TECFAC 08 Plagiarism](https://www.youtube.com/watch?v=2a0QJnCmfEs) and [library.port.ac.uk/referencing](https://library.port.ac.uk/referencing).***
-
-***Any material submitted that does not meet format or submission guidelines or falls outside of the submission deadline could be subject to a cap on your overall result or disqualification entirely.***
-
-***If you need additional assistance, you can ask your personal tutor, student engagement officer [ana.baker@port.ac.uk](mailto:ana.baker@port.ac.uk), academic tutor [eleni.noussi@port.ac.uk](mailto:eleni.noussi@port.ac.uk) or your lecturers.***
-
-***If you are concerned about your well-being, contact our [Well-being service](https://myport.port.ac.uk/guidance-and-support/health-and-wellbeing)***
-
----
-
 ## Moodle — Flutter Coursework
 
 ### Overview
 
-Your task is to recreate a mobile-optimised version of the Moodle platform using Flutter. You must not start from scratch, as you need to begin by forking the GitHub repository that contains the incomplete template code. [The getting started section of this document](#getting-started) will explain more. Once you have completed the application, you will submit the link to your forked repository on Moodle for assessment and demonstrate your application on an online meeting which you need to book using [this link](https://outlook.office.com/bookwithme/user/e0acc34f2ca040b295fb20cfce7425a2@port.ac.uk/meetingtype/qZuY5y_IuUimqFEq4d1oDA2?anonymous&ismsaljsauthenabled&ep=mlink). See the submission and demonstration sections for more information.
+Your task is to recreate a mobile-optimised version of the Moodle platform using Flutter. You must not start from scratch, as you need to begin by forking the GitHub repository that contains the incomplete template code. [The getting started section of this document](#getting-started) will explain more. Once you have completed the application, you will submit the link to your forked repository on Moodle for assessment and demonstrate your application on an online meeting, which you need to book using [this link](https://outlook.office.com/bookwithme/user/e0acc34f2ca040b295fb20cfce7425a2@port.ac.uk/meetingtype/qZuY5y_IuUimqFEq4d1oDA2?anonymous&ismsaljsauthenabled&ep=mlink). See the submission and demonstration sections for more information.
 
 ### Getting Started
 
@@ -66,7 +28,7 @@ Do not change anything on the Create fork page. You should then get a public for
 
 ##### Step 2: Clone and Open in VS Code
 
-Open VS Code and click the Clone Repository button in the Source Control panel on the left side of the screen. Open your editor and clone this repository from the source control panel on the left. Alternatively open the command palette with Ctrl+Shift+P or Cmd+Shift+P and enter “Git: Clone”.
+Open VS Code and click the Clone Repository button in the Source Control panel on the left side of the screen. Open your editor and clone this repository from the source control panel on the left. Alternatively, open the command palette with Ctrl+Shift+P or Cmd+Shift+P and enter “Git: Clone”.
 
 ![Step 2.1: Opening in VS Code](images/step2_vscode.png)
 
@@ -144,18 +106,18 @@ Your objective is to reimplement features from the Moodle platform in your forke
 | [Static Navigation Drawer / AppBar](https://moodle.port.ac.uk/my/) | Top app bar and side navigation drawer with menus (links do not have to work at this stage) | 5% |
 | [Profile Page](https://moodle.port.ac.uk/user/profile.php) | Static profile view showing your student information, | 5% |
 | [Dummy Courses Page](https://moodle.port.ac.uk/my/courses.php) | Page displaying various modules you have (hardcoded data acceptable) | 5% |
-| Dummy Course Details Page (use your PAPL or UXDI module, i.e., this module) | Page displaying a few sections of the module, you can use placeholder text, linked copied from moodle or images that you see on Moodle | 5% |
+| Dummy Course Details Page (use your PAPL or UXDI module, i.e., this module) | Page displaying a few sections of the module, you can use placeholder text, linked copied from Moodle or images that you see on Moodle | 5% |
 | [Dummy Assessments Page](https://moodle.port.ac.uk/local/extend/myassessments.php) | Page showing assessments details, their dates and status (hardcoded data acceptable) | 3% |
 | [Calendar Page](https://moodle.port.ac.uk/calendar/view.php?view=month) | Section or page showing past or upcoming deadlines/tasks (hardcoded data acceptable, widgets do not need to function) | 4% |
-| [Authentication UI](https://moodle.port.ac.uk/login/index.php) | Login page (log out from moodle and try the link to the left, buttons do not have to function) | 3% |
+| [Authentication UI](https://moodle.port.ac.uk/login/index.php) | Login page (log out from Moodle and try the link to the left, buttons do not have to function) | 3% |
 | **Intermediate (35%)** | | |
-| Functioning Navigation | Full navigation across all pages; users should be able to navigate using drawer, buttons, and URLs | 3% |
+| Functioning Navigation | Full navigation across all pages; users should be able to navigate using the drawer, buttons, and URLs | 3% |
 | Dynamic Courses Overview Page | Courses overview page populated from data models or services with functioning search or filtering widgets | 6% |
 | Dynamic Course Details Page | Course topics and materials populated from data models or services with functioning expand/collapse or filtering widgets (you need to have at least one page fully functioning) | 6% |
 | Functional Assignment Submission | Assignment pages populated from data models or services with functioning text fields, file attachments, and local submission updates (you can recreate the assignment section for this coursework) | 6% |
 | Interactive Calendar | A functional calendar or list widget allowing users to filter upcoming tasks by date or view deadlines dynamically (the deadline for this coursework must be accurately displayed) | 6% |
 | [Notifications / Announcements Panel and Page](https://moodle.port.ac.uk/message/output/popup/notifications.php) | Working messaging drawer or notification side-panel displaying a list of alerts or system announcements | 3% |
-| Responsiveness | The layout of the application should be adaptive and the application should function on desktop in addition to mobile view | 5% |
+| Responsiveness | The layout of the application should be adaptive, and the application should function on desktop in addition to mobile view | 5% |
 | **Advanced (25%)** | | |
 | Authentication System | Full user authentication and account management (you must use Firebase Auth and enable Google Login) with persistent profile details | 15% |
 | Global Search | Complete search functionality across courses, resources, or activities from the AppBar or dashboard | 10% |
